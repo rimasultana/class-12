@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+
+.manu{
+    background-color: #f9ca24;
+}
+.manu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+
+}
+.manu ul li a{
+    padding: 15px 15px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 20px;
+
+
+}
+.manu ul li a:hover{
+    background-color: #e056fd;
+    color: #22a6b3;
+}
+
+
+
+
+
+body{
+    font-family: 'Edu TAS Beginner', cursive;
+
+}
+
+.baba{
+    display:flex ;
+    justify-content: space-between;
+    margin: 30px 25px;
+    padding: 20px;
+   
+
+}
+.chela{
+background-color: chartreuse;
+width: 50%;
+}
+.maya{
+    background-color: red;
+    width: 45%;
+}
+.team-member{
+    background-color: brown;
+    padding: 20px 0;
+    
+
+}
+.container{
+background-color: chocolate;
+width: 90%;
+margin: auto;
+}
+.team-1{ background-color: blue;
+    padding: 30px;
+
+}
+.container-2 h2 {
+    font-size: 30px;
+
+
+}
+.container-2{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.team-member{
+    display: flex;
+    justify-content: space-between;
+
+}
+.member{
+    width: 23%;
+    background-color:;
+
+}
+.member img{
+    width: 100%;
+
+}
+.member img h4{
+
+}
+.box{
+    height: 350px;
+    width: 600px;
+    background-color: darkgoldenrod;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box-1{ 
+    background-color: #e056fd;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    margin: 0 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box-1 span{
+font-size: 35px;
+
+}
+.inner-box-2{ height: 100px;
+    width: 120px;
+    background-color: #22a6b3;
+    color: #fff;
+    margin: 0 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box-2 span{
+font-size: 35px;
+}
