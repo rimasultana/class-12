@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Kenia&display=swap');
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.manu >ul{
+
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+}
+.manu ul li{
+    list-style: none;
+
+}
+ .manu ul li a{ 
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+.manu ul ul{
+    display: none;
+    background-color:green;
+    position: absolute;
+    
+
+}
+.manu ul li:hover{
+    background-color: darkorchid;
+    color: aqua ul
+    
+}
+
+
+    .manu ul li:hover ul{
+        display: block;
+        z-index: 1;
+    }
+
+
+.box{
+    background-color: red;
+    height: 275px;
+    width: 275px;
+    margin: 100px auto;
+    position: relative;
+}
+.inner-box{
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    position: absolute; 
+    bottom: auto;
+    right: autoS;
+    
+}
