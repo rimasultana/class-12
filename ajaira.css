@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap'); 
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.manu   {  
+    background-color:#7bed9f ;
+}
+.manu > ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.manu ul li a {
+    padding: 20px 15px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Edu TAS Beginner', cursive;
+    position: relative;
+}
+.manu ul li a:hover{
+    background-color: blue;
+    color: azure;
+}
+.manu ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: crimson;
+}
+.manu ul li:hover ul{
+    display: block;
+}
+
+
+
+
+
+
+.box{
+    height: 275px;
+    width: 275px;
+    background-color: #eccc68;
+    position: relative;
+    margin: 100px auto;
+}
+.inner-box{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    position: absolute;
+    
+    top: 100px;
+    right: 100px;
+    border-radius: 50%;
+}
+.top{
+    height: 200Px;
+    width: 400px;
+    background-color: green;
+    margin: auto;
+    position: relative;
+}
+.top-1{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    padding: 20px;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+    
+
+}
